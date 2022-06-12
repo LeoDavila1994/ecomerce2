@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Galaxy_S52.css">
+    <title>Galaxy S52</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="nav-flex">
+
+                <div class="container-title">
+                    
+                    <div class="logo-one left-mar">
+                        <button class="icon-nav direction direction-x" onclick="menuBtn()"><img src="./images/menu 2.svg" alt="icon-menu" class="icon-nav"></button>
+                        <div class="menu-list">
+                            <div class="menu-all hidden-four" id="menu-list">
+                                <button class="icon-nav direction direction-x" onclick="menuBtn()"><img src="./images/X_1.svg" class="icon-nav"></button>
+                                <p class="txt-filtros text-a-left bold">Menú</p>
+                                <a href="#" class="text-a-left"><p class="bttm-border txt-filtros padding-05">Samsung</p></a>
+                                <a href="#" class="text-a-left"><p class="bttm-border txt-filtros padding-05">Huawei</p></a>
+                                <a href="#" class="text-a-left"><p class="bttm-border txt-filtros padding-05">Xiaomi</p></a>
+                                <a href="#" class="text-a-left"><p class="bttm-border txt-filtros padding-05">Pixel</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav-title">
+                        <h1 class="h1-small one left-mar-title">e-commerce</h1>
+                    </div>
+                </div>
+
+                <div class="container-icon"> 
+
+                    <div class="logo-user">
+                        <button class="icon-nav direction direction-x" onclick="loginBtn()"><img src="./images/user 2.svg" alt="icon-user" class="icon-nav"></button>
+                        <div class="user-login hidden-five" id="user-login">
+                            <button class="icon-nav direction direction-x" onclick="loginBtn()"><img src="./images/X_1.svg" class="icon-nav"></button>
+                            <div class="user-login-all">
+                                <h5 class="txt-filtros">Inicio de sesión o Registro</h5>
+                                <button class="btn-google color-light txt-filtros"><img src="./images/flat-color-icons_google.svg" alt=""><p class="text-small">Acceder con Google</p></button>
+                                <button class="btn-google color-light"><img src="./images/akar-icons_facebook-fill.svg" alt=""><p class="text-small">Acceder con Google</p></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="logo-heart">
+                        <img src="./images/heart 1.svg" alt="icon-heart" class="icon-nav">
+                    </div>
+                    <div class="logo-car rigth-mar">
+                        <img src="./images/car-principal.svg" alt="icon-car" class="icon-nav">
+                    </div>
+
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <div class="d-flex dimention">
+
+            <div>
+                <a href="#" class="bold">Home</a>
+            </div>            
+
+            <div class="d-flex">
+
+                <div class="posti-circ d-flex mar-rigth">
+                    <div class="circle-r"></div>
+                </div>
+
+                <p class="bold">Galaxy S52</p>
+            </div>
+            
+        </div>
+    <!------------------------- Searcher ------------------------->
+    
+        <form>
+            <input type="text" placeholder="¿Qué producto estás buscando?" id="searcher">
+            <button id="btn"><img src="./images/search 1.svg" alt=""></button>
+        </form>
+    <!----------------------------Estruct elements-------------------->
+        <div class="heart-p">
+            <div class="struct"><img src="./images/heart 1.svg" class="heart-size"></div>
+            <div class="d-flex elemnt-size">
+                <div class="flecha-color d-flex"><img src="./images/flecha_left.svg" class="icon-nav"></div>
+                <div class="img-cel"></div>
+                <div class="flecha-color d-flex"><img src="./flecha_rigth.svg" class="icon-nav"></div>           
+            </div>
+        </div>
+    <!----------------------------Descript elements-------------------->
+
+    <div class="heart-p">
+        <div>
+            <div class="logo-car-one2">
+                <img src="./images/shopping-cart 3.svg" alt="icon-car" class="icon-nav">
+            </div>
+        </div>
+
+        <div>
+            <p class="color-light bold bottom-mar">SAMSUNG</p>
+            <h2 class="color-gray bottom-mar">Galaxy S52</h2>
+            <p class="color-gray bottom-mar">(128gb/8gb RAM)</p>
+        </div>
+        <div class="bottom-mar">
+            <img src="./images/icon-star.svg" class="star-m">
+            <img src="./images/icon-star.svg" class="star-m">
+            <img src="./images/icon-star.svg" class="star-m">
+            <img src="./images/icon-star.svg" class="star-m">
+            <img src="./images/icon-star.svg" class="star-m">            
+        </div>
+        <div><p class="color-light txt-c">Rendimiento: el Snapdragon 778G da la talla, de lo mejor de la gama media. Cámara: buen trabajo de las cámaras con un estilo muy Samsung. Autonomía: 4.500 mAh que dan para dos días de uso, lo malo es la carga. Conclusión: un móvil casi perfecto para los que quieren un Samsung gama media a buen precio</p></div>
+    </div>
+
+    <!----------------------------Price elements-------------------->
+
+    <div class="heart-p">
+        <div><div class="flecha-color2"><img src="./flecha_rigth.svg" class="icon-nav"></div></div>
+        <div><p class="top-mar bottom-mar color-light">Precio</p></div>
+        <div class="d-flex sp-btwn">
+            <div><h2 class="color-gray bottom-mar">$5,200.00</h2></div>
+            <div>
+                <form action="#">
+                    <label for="lang"></label>
+                    <select name="languages" id="lang" class="select">
+                        <option value="0">1</option>
+                        <option value="1">+</option>
+                        <option value="2">-</option>                                               
+                    </select>                                
+                </form>
+            </div>
+            
+        </div>
+
+        <div><p class="bottom-mar bold">Color</p></div>
+        
+        <div class="d-flex sp-evenly">
+            
+            <img src="./images/image 8.jpg">
+            <img src="./images/image 9.jpg">
+            <img src="./images/image 10.jpg">
+            
+        </div>
+    </div>
+
+    <!----------------------------Caracteristicas-------------------->
+
+    <div class="d-flex p-size">
+        <div class="top-mar">
+            <div class="bottom-mar txt-c size-div d-flex"><a href="#" class="to-hov bold sml-p">Descripción del producto</a></div>
+            <div class="d1-d">
+                <p class="bottom-mar sml-p">Tipo de pantalla</p>
+                <p class="bottom-mar sml-p">Tamaño de pantalla</p>
+                <p class="bottom-mar sml-p">RAM</p>
+                <p class="bottom-mar sml-p">Cámara principal</p>
+                <p class="bottom-mar sml-p">Cámara frontal</p>
+                <p class="bottom-mar sml-p">Sistema operativo</p>
+                <p class="bottom-mar sml-p">Puerto de carga</p>
+                <p class="bottom-mar sml-p">Memoria expandible</p>
+                <p class="bottom-mar sml-p">NFC</p>
+            </div>
+            
+        </div>
+        <div class="top-mar">
+            <div class="bottom-mar txt-c size-div d-flex"><a href="#" class="to-hov bold sml-p">Especificaciones</a></div>
+            <div class="d1-e">
+                <p class="bottom-mar2 txt-c sml-p">Super amoled</p>
+                <p class="bottom-mar2 txt-c sml-p">6.4"</p>
+                <p class="bottom-mar2 txt-c sml-p">4GB</p>
+                <p class="bottom-mar2 txt-c sml-p">64 + 8 + 5 + 5 mp</p>
+                <p class="bottom-mar2 txt-c sml-p">20 mp</p>
+                <p class="bottom-mar2 txt-c sml-p">Android 11 One UI 3</p>
+                <p class="bottom-mar2 txt-c sml-p">USB Tipo C</p>
+                <p class="bottom-mar2 txt-c sml-p">Hasta 512 GB</p>
+                <p class="bottom-mar2 txt-c sml-p">No</p>
+            </div>
+        </div>
+    </div>
+
+    <!----------------------------Otros-------------------->
+
+    <div class="heart-p">
+        <div><div class="flecha-color3"><img src="./flecha_rigth.svg" class="icon-nav"></div></div>
+        <div class="bold salm-color top-mar-ot bottom-mar">Otras opciones ...</div>
+        
+        <div class="card-flex">
+            <div class="card">
+                <div class="card-images">
+                    <div class="card-heart">
+                        <img src="./images/heart 1.svg" alt="icon-heart" class="icon-nav">
+                    </div>
+                    <div class="card-img">
+                        <img src="./images/image 1.jpg" alt="image" class="img-cel">
+                    </div>
+                </div>
+                <div class="card-info">
+                    <div class="brand">
+                        <h5 class="color-light">SAMSUNG</h5>
+                        <p class="bold color-dark">Galaxy S52</p>
+                    </div>
+                    <div class="price-car-flex">
+                        <div class="price">
+                            <p class="color-light">Precio:</p>
+                            <p class="bold color-dark">$3,900.00</p>
+                        </div>
+                        <div class="logo-car-one">
+                            <img src="./images/shopping-cart 3.svg" alt="icon-car" class="icon-nav">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+
+    </main>    
+
+    <script src="./script.js/Filter-btn.js"></script>    
+</body>
+</html>
