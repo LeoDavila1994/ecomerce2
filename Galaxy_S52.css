@@ -99,6 +99,11 @@ button{
 .bottom-mar{
     margin-bottom: 1.5rem;
 }
+
+.bttm-border{
+    border-bottom: 2px solid #c7c7c7;
+}
+
 .top-mar{
     margin-top: 1.5rem;
 }
@@ -167,6 +172,7 @@ nav {
     width: 76%;
     box-shadow: 5px 0px 5px #4f4f4f38;
     background-color: #fff;
+    z-index: 3;
 }
 
 .nav-flex {
@@ -211,6 +217,7 @@ nav {
     text-align: right;
     background-color: #fff;
     box-shadow: 0px 2px 5px #4f4f4f38;
+    z-index: 2;
 }
 
 .user-login-all {
@@ -267,6 +274,7 @@ form {
 
 .heart-p{
     position: relative;
+    z-index: 1;
 }
 
 .struct{
@@ -363,14 +371,20 @@ form {
 
 /*********************** Caracteristicas **************************/
 
-.size-div{
-    height: 3rem;
-    align-items: center;
-    justify-content: center;      
+.d-size{
+    width: 260px;
+    margin: auto;
 }
 
-.size-div:hover{         
-         border-bottom: 4px solid #F85555;
+.child-d{
+    display: flex;    
+    width: 125px;
+    height: 50px;
+    align-items: center;    
+}
+
+.child-d:hover{
+    border-bottom: 4px solid #F85555;
 }
 
 .to-hov{
@@ -382,19 +396,32 @@ form {
 }
 
 .d1-d{
-    background-color: #c7c7c7;
-    width: 8rem;
-    padding: .5rem;
-    
+    background-color: #c7c7c7;    
+    padding: .5rem;    
 }
 
-.d1-e{    
-    width: 8rem;
-    padding: .5rem;
+.d2-d{        
+    padding: .5rem;    
 }
 
-.bottom-mar2{
-    margin-bottom: 1.5rem;
+.content-desc{    
+    width: 272px;
+    height: 358px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.p-cont{
+    height: 450px;
+    width: 272px;
+    display: none;    
+}
+
+.main-Cara{
+    height: 450px;
+    width: 272px;
+    position: relative;
+    overflow: hidden;
 }
 
 /*********************** Otros **************************/
